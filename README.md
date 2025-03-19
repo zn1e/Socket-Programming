@@ -9,7 +9,7 @@
 3. Then start the client on the other terminal with the appropriate command line parameters: <br>
 `python3 client.py <time/date> <localhost/IP address> <port#>`
     - For the server hostname / IP address parameter, you can use IP address *127.0.0.1* or hostname *localhost*.
-    - For the port parameter, use the port number with which you started the server. <br>
+    - For the port parameter, use the port number with which you started the server (values must be in range [1024, 64000]). <br>
 
 
 > This was created as a requirement for **COSC264: Introduction to Computer Networks and Internet** course and received a grade of **96.62% (A+)**.
